@@ -103,10 +103,8 @@ header .profile-image:hover {
 .card:hover {
   border-color: blue;
 }
-.skills :nth-last-child(odd):hover {
-  transform: scale(1.2);
-}
-.skills :nth-last-child(even):hover {
+
+.skills li:hover{
   transform: scale(1.2);
 }
 
@@ -158,12 +156,6 @@ a.social {
   background-size: 30px 30px;
   opacity: .4;
   transition: all .5s;
-}
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
 }
 a.github {
   background-image: url(images/github.svg);
