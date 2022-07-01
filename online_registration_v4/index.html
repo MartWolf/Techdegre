@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" >
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Online Regristration for Code Review</title>
+</head>
+<body>
+    <header>
+            <div class="headers">
+                <h1>The Code Review</h1>
+            </div>
+    </header>
+    <main>
+        <div class="top">
+        <h2>Signup for our newsletter</h2>
+        <p class="gray center">Get the latest news on how your code is doing right in you inbox</p>
+    </div>
+    <div>
+        <fieldset class="margin"></fieldset>
+    </div>
+        <form action="#0" method="post">
+            <fieldset class="zero_border border_extra">
+                
+            <div class="form">        
+            <ul>
+
+                <li><h3>Contact Information</h3></li>
+                <li><div class="form"><label for="name">Full Name</label>
+                <input  required type="text" id="name" name="name" placeholder="Required">
+            </div>
+                </li>
+
+                <li><div class="form ">
+                    <label for="mail">Email Address</label>
+                    <input required type="email" id="mail" name="user_email" placeholder="Required">
+                    
+                </div></li>
+
+                <li><div class="form">
+                    <label for="telephone">Phone Number</label>
+                    <input type="tel" id="telephone" name="telephonenumber" placeholder="ex:(555) 555-5555">
+                </div></li>
+
+                <li><div class="form">
+                    <label for="adress">Street Adress</label>
+                    <input type="text" id="adress" name="street_address" placeholder="ex:Water Oak Lane 53">
+                </div></li>
+
+                <li><div class="form">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" placeholder="ex:New York">
+                </div></li>
+                
+                <li><div class="form">
+                    <label for="state">State</label>
+                    <select name="state" id="state">
+                        <option value="" disabled selected hidden>Choose State</option>
+                        <option value="alabama">Alabama</option>
+                        <option value="alaska">Alaska</option>
+                        <option value="arizona">Arizona</option>
+                        <option value="arkansas">Arkansas</option>
+                        <option value="california">California</option>
+                        <option value="colorado">Colorado</option>
+                        <option value="connecticut">Connecticut</option>
+                        <option value="delaware">Delaware</option>
+                    </select>
+                </div></li>
+
+                <li><div class="form3">
+                    <label for="zip">Zip Code</label>
+                    <input type="text" id="zip" name="zip" placeholder="ex:15201">
+                </div></li>
+
+            </ul>
+            </div>
+            </fieldset>
+
+            <fieldset class="zero_border">
+
+                <legend><h4>Newsletter</h4></legend>
+                <p>Select the newsletter you would like to recieve<p>
+                <div class="form">
+                <ul>
+                <li>
+                    <input type="checkbox" name="checkbox" id="html_news">
+                    <label for="html_news">Html News</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="checkbox" id="css_news">
+                    <label for="css_news">CSS News</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="checkbox" id="javascript_news">
+                    <label for="javascript_news">Javascript News</label>
+                </li>
+                </ul>
+            </div>
+                </fieldset>
+
+                <fieldset class="zero_border">
+
+
+                    <legend>Newsletter format</legend>
+                    <div class="form">
+                    <ul>
+                <li>
+
+                    <input type="radio" name="text_format" id="html_text" value="html">
+                    <label for="html_text">HTML</label>
+                    
+                </li>
+                <li>
+                    <input type="radio" name="text_format" id="plain_text" value="plain">
+                    <label for="plain_text">Plain Text</label>
+                </li>
+                        </ul>
+                    </div>
+                </fieldset>
+
+                <fieldset class="zero_border">
+                    <legend>Other topics you'd like to hear about</legend>
+                    <div class="form2">
+                        <ul>
+                <li>  
+                <textarea name="other_topic" id="other_topic" cols="30" rows="10" placeholder="Write Here"></textarea>
+                </li>
+                </ul>
+                </div>
+
+                </fieldset>
+                <div class="form2">
+                <ul>
+                <li>    
+                    <input type="submit" value="Sign Up" class="button"> 
+                </li>
+                </ul>
+                </div>
+        </form>
+    
+    <footer>
+        <p>Copyright The Code Review</p>
+    </footer>
+</main>
+</body>
+</html>
